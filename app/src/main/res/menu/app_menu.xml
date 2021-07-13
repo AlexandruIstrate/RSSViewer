@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/refreshMenu"
+        android:title="Refresh" />
+
+    <group
+        android:id="@+id/categoryGroup"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/topStoriesMenu"
+            android:checked="true"
+            android:title="Top Stories" />
+
+        <item
+            android:id="@+id/businessMenu"
+            android:checked="false"
+            android:title="Business" />
+
+        <item
+            android:id="@+id/gearMenu"
+            android:title="Gear" />
+
+        <item
+            android:id="@+id/cultureMenu"
+            android:title="Culture" />
+
+        <item
+            android:id="@+id/photoMenu"
+            android:title="Photo" />
+
+        <item
+            android:id="@+id/scienceMenu"
+            android:title="Science" />
+
+        <item
+            android:id="@+id/securityMenu"
+            android:title="Security" />
+
+        <item
+            android:id="@+id/transportationMenu"
+            android:title="Transportation" />
+    </group>
+
+    <item
+        android:id="@+id/moreMenu"
+        android:title="More..." />
+</menu>
